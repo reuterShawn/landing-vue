@@ -28,10 +28,10 @@ async function handleContact(request, env) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        // Sandbox sender — works without a verified domain, but only
-        // delivers to the email address on your Resend account.
-        from: 'onboarding@resend.dev',
-        to: env.CONTACT_TO_EMAIL, // your own Resend signup email
+        // Update this to an address on your verified domain, e.g.
+        // 'Horizon <contact@yourdomain.com>'. Doesn't need a real inbox.
+        from: 'Horizon <contact@reuterdevelopment.com>',
+        to: env.CONTACT_TO_EMAIL, // can now be any address you want to receive at
         subject: `New contact form message from ${name}`,
         reply_to: email,
         text: `From: ${name} <${email}>\n\n${message}`,
