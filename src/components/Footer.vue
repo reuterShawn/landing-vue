@@ -1,6 +1,6 @@
 <template>
   <footer>
-    &copy; 2026 Horizon. All rights reserved.
+    &copy; 2026 Reuter Development. All rights reserved.
   </footer>
 </template>
 

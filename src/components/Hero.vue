@@ -2,7 +2,7 @@
   <section class="hero" id="home">
     <span class="eyebrow">Now booking new clients</span>
     <h1>Build something worth <span>looking forward to.</span></h1>
-    <p>A clear, focused starting point for your next launch — swap in your own name, story, and details, and it's ready to ship.</p>
+    <p>A clear, focused starting point for your next launch — Reuter Development is ready to serve you.</p>
     <div class="hero-actions">
       <a href="#contact"><button class="btn-primary">Get Started</button></a>
       <a href="#about"><button class="btn-secondary">Learn More</button></a>

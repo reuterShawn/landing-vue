@@ -4,25 +4,24 @@
       <div>
         <span class="about-label">About Us</span>
         <h2>Built on a simple idea, done properly.</h2>
-        <p>This section is where you tell your story — what you do, why you started, and why it matters to the people you serve. Keep it honest and specific; that's what people remember.</p>
-        <p>Replace this placeholder copy with two or three short paragraphs about your background, your approach, and what makes working with you different.</p>
+        <p> Reuter Development thrives on keeping things simple between the customer and myself. By always delivering websites on time and keeping them maintained properly.</p>
+        <p>Shawn is someone you can trust to take you to the finish line. Whether you want a blog to share your thoughts or a simple starter website to establish yourself Shawn will be there to deliver it with passion and poise</p>
         <div class="stats">
           <div>
-            <div class="stat-num">120+</div>
+            <div class="stat-num">1</div>
             <div class="stat-label">Projects delivered</div>
           </div>
           <div>
-            <div class="stat-num">98%</div>
+            <div class="stat-num">100%</div>
             <div class="stat-label">Client satisfaction</div>
           </div>
           <div>
-            <div class="stat-num">5 yrs</div>
+            <div class="stat-num">Less than 1 year</div>
             <div class="stat-label">In business</div>
           </div>
         </div>
       </div>
       <div class="about-visual">
-        <div class="about-visual-inner">Horizon</div>
       </div>
     </div>
   </section>
