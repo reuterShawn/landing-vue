@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "mimetext": "^3.0.28",
     "vue": "^3.4.0"
   },
   "devDependencies": {

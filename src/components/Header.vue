@@ -15,7 +15,7 @@ const closeMenu = () => {
 <template>
   <header>
     <nav class="nav">
-      <a href="#home" class="logo"><span class="logo-mark"></span>Reuter Development</a>
+      <a href="#home" ><span class="logo-mark"></span>Reuter Development</a>
       <div class="nav-links" :class="{ open: menuOpen }">
         <a href="#home" @click="closeMenu">Home</a>
         <a href="#about" @click="closeMenu">About Us</a>
