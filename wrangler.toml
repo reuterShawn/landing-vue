@@ -1,4 +1,4 @@
-name = "starter-website"
+name = "landing-vue"
 main = "worker/index.js"
 compatibility_date = "2026-08-01"
 
