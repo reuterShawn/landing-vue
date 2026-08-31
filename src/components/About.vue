@@ -21,8 +21,9 @@
           </div>
         </div>
       </div>
-      <div class="about-visual">
-      </div>
+ <div class="about-visual">
+  <img src="../public/shawn.JPG" alt="Shawn, founder of Reuter Development" />
+</div>
     </div>
   </section>
 </template>
@@ -62,24 +63,11 @@
   font-size: 1.02rem;
 }
 
-.about-visual {
-  background: var(--bg-alt);
-  border: 1px solid var(--border);
-  border-radius: 16px;
-  aspect-ratio: 4/3;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  overflow: hidden;
-}
-
-.about-visual::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, transparent 55%, var(--primary) 55%, var(--primary) 58%, transparent 58%);
-  opacity: 0.5;
+.about-visual img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 25%;
 }
 
 .about-visual-inner {

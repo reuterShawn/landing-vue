@@ -10,5 +10,7 @@ onMounted(() => {
 </script>
 
 <template>
+  <section id="contact">
   <div id="jotform-container"></div>
+  </section>
 </template>   
