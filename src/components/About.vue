@@ -22,8 +22,7 @@
         </div>
       </div>
  <div class="about-visual">
-  <img src="../public/shawn.JPG" alt="Shawn, founder of Reuter Development" />
-</div>
+<img :src="'/shawn.JPG'" alt="Shawn, founder of Reuter Development" /></div>
     </div>
   </section>
 </template>
