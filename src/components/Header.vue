@@ -15,7 +15,10 @@ const closeMenu = () => {
 <template>
   <header>
     <nav class="nav">
-      <a href="#home" class="logo">Reuter Development</a>
+      <a href="#home" class="logo">
+        <img :src="'/logo.png'" alt="Reuter Development logo" class="logo-img" />
+        Reuter Development
+      </a>
       <div class="nav-links" :class="{ open: menuOpen }">
         <a href="#home" @click="closeMenu">Home</a>
         <a href="#about" @click="closeMenu">About Us</a>
@@ -52,6 +55,12 @@ header {
   padding: 18px 24px;
   max-width: var(--max-width);
   margin: 0 auto;
+}
+
+.logo-img {
+  height: 28px;
+  width: auto;
+  display: block;
 }
 
 .logo {
